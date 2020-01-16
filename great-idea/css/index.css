@@ -82,7 +82,8 @@ title{
 	width:100%;
 	text-align: center;
 	padding-top: 30px;
-
+	display:flex;
+	justify-content: space-evenly;
 }
 
 nav a{
@@ -98,6 +99,12 @@ nav a:hover{
 	width:100%;
 	padding: 3% 0;
 }
+
+.headcontainer{
+	display:flex;
+	justify-content: space-evenly;
+
+}
 h1{
 	font-size:5rem;
 	white-space: pre-line;
@@ -105,21 +112,18 @@ h1{
 	text-align: center;
 	
 }
-
-#h1-img h2{
+.headcontainer2{
+	display:flex;
+	justify-content: space-evenly;
+}
+h2{
 	border: solid;
 	width: 150px;
 	height:66px;
 	text-align: center;
 	padding-top: 25px;
-	
 }
 
-
-#h1-img .headcontainer div{
-	width: 36%;
-	padding: 2% 0;
-}
 
 #top {
 	padding: 3% 0;
