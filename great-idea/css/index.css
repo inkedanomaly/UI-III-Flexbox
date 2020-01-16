@@ -123,8 +123,10 @@ h2{
 	text-align: center;
 	padding-top: 25px;
 }
-
-
+.container{
+	display:flex;
+	justify-content: space-evenly;
+}
 #top {
 	padding: 3% 0;
 	border-top: 2px solid black;
@@ -140,6 +142,12 @@ h2{
 .middle-img {
 	width: 80%;
 }
+.container2 {
+	display:flex;
+	justify-content: center;
+	
+}
+
 #bottom {
 	padding: 3% 0;
 	border-bottom: 2px solid black;
@@ -147,11 +155,18 @@ h2{
 
 #bottom .container2 div{
 	text-align:left;
-	width: 23%;
+	width: 24%;
 	padding: 3% 0;
 }
-#contact{
-	padding: 3% 0;
+
+.contactcontainer{ 
+	padding:3% 0;
+	margin:0 14%;
+	display:flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+
 }
 #Copyright {
 	text-align: center;
