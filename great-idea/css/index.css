@@ -80,7 +80,6 @@ title{
 
 .links {
 	width:100%;
-	display:inline-block;
 	text-align: center;
 	padding-top: 30px;
 
@@ -89,8 +88,6 @@ title{
 nav a{
 	color: slategray;
 	text-decoration: none;
-	margin: 0 3%;
-	display: inline-block;
 	
   }
 
@@ -100,14 +97,12 @@ nav a:hover{
 #h1-img {
 	width:100%;
 	padding: 3% 0;
-	margin: 0 10%;
 }
 h1{
 	font-size:5rem;
 	white-space: pre-line;
 	letter-spacing: 2px;
 	text-align: center;
-	
 	
 }
 
@@ -117,21 +112,17 @@ h1{
 	height:66px;
 	text-align: center;
 	padding-top: 25px;
-	margin: 0 36%;
 	
 }
 
 
 #h1-img .headcontainer div{
 	width: 36%;
-	display: inline-block;
 	padding: 2% 0;
-	margin: 0 3%;
 }
 
 #top {
 	padding: 3% 0;
-	margin: 0 10%;
 	border-top: 2px solid black;
 
 }
@@ -139,32 +130,23 @@ h1{
 #top .container div{
 	text-align:left;
 	width: 30%;
-	display:inline-block;
-	margin: 0 8%;
 	padding: 3% 0;
 }
 
 .middle-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	width: 80%;
 }
 #bottom {
 	padding: 3% 0;
-	margin: 0 10%;
 	border-bottom: 2px solid black;
 }
 
 #bottom .container2 div{
 	text-align:left;
 	width: 23%;
-	display:inline-block;
-	margin: 0 5%;
 	padding: 3% 0;
 }
 #contact{
-	margin: 0 10%;
 	padding: 3% 0;
 }
 #Copyright {
