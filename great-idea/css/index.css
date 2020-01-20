@@ -77,61 +77,84 @@ title{
 	letter-spacing:2.5px;
 	padding:5% 0;
 }
-/*NAV STYLING BEGINS*/
+
+/*BEGIN NAV BAR STYLING*/
+
+nav {
+	display:flex;
+	width:90%;
+}
+
 .links {
 	width:100%;
-	text-align: center;
-	padding-top: 30px;
 	display:flex;
-	justify-content: space-evenly;
+	justify-content:space-evenly;
+	padding-top: 5%
+}
+
+.logo{
+	width:auto;
+	padding-top: 4%;
 }
 
 nav a{
 	color: slategray;
 	text-decoration: none;
+	
 }
 
 nav a:hover{
 	color:#AFEEEE;
 }
-/*NAV STYLING ENDS*/
+/*END NAV BAR STYLING*/
 /*HEADER STYLING BEGINS*/
-#h1-img {
-	width:100%;
-	padding: 3% 0;
-}
 
-.headcontainer{
+.titlecontainer{
 	display:flex;
 	justify-content: space-evenly;
+	align-content: center;
+	padding:5% 0;
+	width:100%;
+	margin:auto;
+}
+.titlecontainer div{
+	width:45%;
+	
 }
 
-.headcontainer h1{
+.titlecontainer h1{
 	font-size:5rem;
 	white-space: pre-line;
-	letter-spacing: 2px;
+	line-height: 1;
 	text-align: center;	
 }
-
-.headcontainer2{
-	display:flex;
-	justify-content: space-evenly;
-}
-
-h2{
-	border: solid;
-	width: 150px;
-	height:66px;
+.titlecontainer h2{
+	border: 1px solid black;
+	width: 120px;
+	height:30px;
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 8px;
+	margin:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .85rem;
 }
 
+.headerimg{
+	width:90%;
+	height:70%;
+	padding:2% 0
+}
+
+
+
+/*HEADER STYLING ENDS*/
+
+/*TOP CONTAINER STYLING STARTS*/
 .container{
 	display:flex;
 	justify-content: space-evenly;
 }
-/*HEADER STYLING ENDS*/
-/*TOP CONTAINER STYLING STARTS*/
+
 #top {
 	padding: 3% 0;
 	border-top: 2px solid black;
@@ -195,38 +218,7 @@ title{
 	letter-spacing:2.5px;
 	padding:5% 0;
 }
-/*BEGIN NAV BAR STYLING*/
-header{
-	height:20vh;
-}
 
-nav {
-	display:flex;
-	width:90%;
-}
-
-.links2 {
-	width:100%;
-	display:flex;
-	justify-content:space-evenly;
-	padding-top: 5%
-}
-
-.logo{
-	width:auto;
-	padding-top: 4%;
-}
-
-nav a{
-	color: slategray;
-	text-decoration: none;
-	
-}
-
-nav a:hover{
-	color:#AFEEEE;
-}
-/*END NAV BAR STYLING*/
 /*BEGIN HEADER CONTAINER STYLING*/
 .background {
 	display:flex;
@@ -318,3 +310,5 @@ h4 {
 .facts li {
 	line-height: 1.5;
 }
+/*END BOTTOM CONTAINER STYLING*/
+/*END SERVICES PAGE STYLING*/
