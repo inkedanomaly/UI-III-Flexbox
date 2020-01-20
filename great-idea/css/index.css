@@ -108,7 +108,6 @@ nav a:hover{
 }
 /*END NAV BAR STYLING*/
 /*HEADER STYLING BEGINS*/
-
 .titlecontainer{
 	display:flex;
 	justify-content: space-evenly;
@@ -117,9 +116,9 @@ nav a:hover{
 	width:100%;
 	margin:auto;
 }
+
 .titlecontainer div{
 	width:45%;
-	
 }
 
 .titlecontainer h1{
@@ -128,6 +127,7 @@ nav a:hover{
 	line-height: 1;
 	text-align: center;	
 }
+
 .titlecontainer h2{
 	border: 1px solid black;
 	width: 120px;
@@ -144,9 +144,6 @@ nav a:hover{
 	height:70%;
 	padding:2% 0
 }
-
-
-
 /*HEADER STYLING ENDS*/
 
 /*TOP CONTAINER STYLING STARTS*/
@@ -158,16 +155,21 @@ nav a:hover{
 #top {
 	padding: 3% 0;
 	border-top: 2px solid black;
+	width:90%;
+	margin:auto;
 }
 
-#top .container div{
+.container div{
 	text-align:left;
-	width: 30%;
-	padding: 3% 0;
+	width: 50%;
+}
+
+.container p{
+	width:90%;
 }
 
 .middle-img {
-	width: 80%;
+	width: 90%;
 }
 
 .container2 {
@@ -179,26 +181,34 @@ nav a:hover{
 #bottom {
 	padding: 3% 0;
 	border-bottom: 2px solid black;
+	width:90%;
+	margin:auto;
+	
 }
-
-#bottom .container2 div{
+.container2 div{
 	text-align:left;
-	width: 24%;
-	padding: 3% 0;
+	width: 33%;
+	margin:auto;
+	
 }
-
-.contactcontainer{ 
-	padding:3% 0;
-	margin:0 14%;
-	display:flex;
-	flex-direction: column;
-	align-items: flex-start;
+.container2 p {
+	width:90%;
 }
-
+/*BOTTOM STYLING ENDS*/
+/*FOOTER STYLING STARTS*/
+.contact{ 
+	text-align:left;
+	margin-left: 4.5rem;
+	padding:4% 0;
+	line-height: 1;
+}
+.contact div{
+	padding:1% 0;
+}
 #Copyright {
 	text-align: center;
 }
-/*BOTTOM STYLING ENDS*/
+/*FOOTER STYLING ENDS*/
 /*HOME PAGE STYLING ENDS*/
 
  /* SERVICE PAGE STYLING STARTS */
